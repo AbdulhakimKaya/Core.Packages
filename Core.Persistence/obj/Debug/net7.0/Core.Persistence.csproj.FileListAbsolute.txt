@@ -9,3 +9,5 @@ C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.Per
 C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.Persistence\obj\Debug\net7.0\refint\Core.Persistence.dll
 C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.Persistence\obj\Debug\net7.0\Core.Persistence.pdb
 C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.Persistence\obj\Debug\net7.0\ref\Core.Persistence.dll
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.Persistence\obj\Debug\net7.0\Core.Persistence.csproj.AssemblyReference.cache
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.Persistence\obj\Debug\net7.0\Core.Persistence.sourcelink.json
