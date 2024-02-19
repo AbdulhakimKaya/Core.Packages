@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Core.Persistence")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Core.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20706c2e6009626fca21ca84ec209a30558e8190")]
-[assembly: System.Reflection.AssemblyProductAttribute("Core.Persistence")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Core.Persistence")]
+[assembly: System.Reflection.AssemblyProductAttribute("Core.Application")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Core.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
