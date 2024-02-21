@@ -10,3 +10,4 @@ C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.Cro
 C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net7.0\refint\Core.CrossCuttingConcerns.dll
 C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net7.0\Core.CrossCuttingConcerns.pdb
 C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net7.0\ref\Core.CrossCuttingConcerns.dll
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net7.0\Core.CrossCuttingConcerns.csproj.AssemblyReference.cache
