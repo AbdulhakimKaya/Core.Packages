@@ -14,3 +14,5 @@ C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.App
 C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.Application\bin\Debug\net7.0\Core.Persistence.pdb
 C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.Application\obj\Debug\net7.0\Core.Application.csproj.AssemblyReference.cache
 C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.Application\obj\Debug\net7.0\Core.Application.csproj.CopyComplete
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.Application\bin\Debug\net7.0\Core.CrossCuttingConcerns.dll
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.Application\bin\Debug\net7.0\Core.CrossCuttingConcerns.pdb
