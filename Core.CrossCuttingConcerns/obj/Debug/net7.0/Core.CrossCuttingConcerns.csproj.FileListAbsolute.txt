@@ -1,0 +1,12 @@
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.CrossCuttingConcerns\bin\Debug\net7.0\Core.CrossCuttingConcerns.deps.json
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.CrossCuttingConcerns\bin\Debug\net7.0\Core.CrossCuttingConcerns.dll
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.CrossCuttingConcerns\bin\Debug\net7.0\Core.CrossCuttingConcerns.pdb
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net7.0\Core.CrossCuttingConcerns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net7.0\Core.CrossCuttingConcerns.AssemblyInfoInputs.cache
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net7.0\Core.CrossCuttingConcerns.AssemblyInfo.cs
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net7.0\Core.CrossCuttingConcerns.csproj.CoreCompileInputs.cache
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net7.0\Core.CrossCuttingConcerns.sourcelink.json
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net7.0\Core.CrossCuttingConcerns.dll
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net7.0\refint\Core.CrossCuttingConcerns.dll
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net7.0\Core.CrossCuttingConcerns.pdb
+C:\Users\abdul\RiderProjects\CSharpnArchitectureCourse\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net7.0\ref\Core.CrossCuttingConcerns.dll
