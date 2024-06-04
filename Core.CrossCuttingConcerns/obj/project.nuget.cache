@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KxK5I4+z6F3UXKQrBeu0JWONcmp/w4fcej34FgvzK+ylD1WVm7/v/k1XxbQYZ7Pr53Q+eWzws+lDyKEPbLovOQ==",
+  "dgSpecHash": "/iOpJHScjPwE2/lNpA31+pB8pfIdrdIV+McIS8eoH6IrTYUGC9WVqZkOimU8Eg3EJCYEOzPrv/0rbQnQL7rJiQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
   "expectedPackageFiles": [
