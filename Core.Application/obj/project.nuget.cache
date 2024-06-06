@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "NDfpDcm2XV/WKP8ON5VrWEGmmk2RT8YU+WxRQZXphpdp+gMewjDufMw65/Bm9fwbeINEdx9ONC7KxvfYtw8fTQ==",
-  "success": true,
+  "dgSpecHash": "gim014wq6/XOq2+3fBb2AG13GZKw9ui5kT9H5BgJheEycnzf1lpTKtXq/CzzNgzAiY2nTkpyfGIwcuPNNTVZjw==",
+  "success": false,
   "projectFilePath": "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Application\\Core.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abdul\\.nuget\\packages\\entityframeworkcore.query\\1.3.1.2\\entityframeworkcore.query.1.3.1.2.nupkg.sha512",
@@ -111,6 +111,8 @@
     "C:\\Users\\abdul\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\abdul\\.nuget\\packages\\serilog\\4.0.0\\serilog.4.0.0.nupkg.sha512",
+    "C:\\Users\\abdul\\.nuget\\packages\\serilog.sinks.file\\5.0.1-dev-00972\\serilog.sinks.file.5.0.1-dev-00972.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
@@ -201,5 +203,15 @@
     "C:\\Users\\abdul\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: Microsoft.Extensions.Configuration.Binder from 9.0.0-preview.4.24266.19 to 7.0.4. Reference the package directly from the project to select a different version. \r\n Core.Application -> Core.CrossCuttingConcerns -> Microsoft.Extensions.Configuration.Binder (>= 9.0.0-preview.4.24266.19) \r\n Core.Application -> Microsoft.Extensions.Configuration.Binder (>= 7.0.4)",
+      "libraryId": "Microsoft.Extensions.Configuration.Binder",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
