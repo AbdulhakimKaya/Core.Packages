@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "gim014wq6/XOq2+3fBb2AG13GZKw9ui5kT9H5BgJheEycnzf1lpTKtXq/CzzNgzAiY2nTkpyfGIwcuPNNTVZjw==",
-  "success": false,
+  "dgSpecHash": "quvJ8pvPnlG4UczHV3mg1jgto1kmXxjc4MkKZ+GICTa6MtU+ZeKTjygANU4U8nY9zL0FGAXtM1sKFkwPk3sjwA==",
+  "success": true,
   "projectFilePath": "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Application\\Core.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abdul\\.nuget\\packages\\entityframeworkcore.query\\1.3.1.2\\entityframeworkcore.query.1.3.1.2.nupkg.sha512",
@@ -203,15 +203,5 @@
     "C:\\Users\\abdul\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.Extensions.Configuration.Binder from 9.0.0-preview.4.24266.19 to 7.0.4. Reference the package directly from the project to select a different version. \r\n Core.Application -> Core.CrossCuttingConcerns -> Microsoft.Extensions.Configuration.Binder (>= 9.0.0-preview.4.24266.19) \r\n Core.Application -> Microsoft.Extensions.Configuration.Binder (>= 7.0.4)",
-      "libraryId": "Microsoft.Extensions.Configuration.Binder",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -14,7 +14,7 @@ public class FileLogger:LoggerServiceBase
         _configuration = configuration;
 
         FileLogConfiguration logConfig =
-            configuration.GetSection("SerilogLogConfiguration:FileLogConfiguration")
+            configuration.GetSection("SeriLogConfigurations:FileLogConfiguration")
                 .Get<FileLogConfiguration>() ?? throw new Exception(SerilogMessages.NullOptionsMessage);
 
         string logFilePath = string.Format(format: "{0}{1}",

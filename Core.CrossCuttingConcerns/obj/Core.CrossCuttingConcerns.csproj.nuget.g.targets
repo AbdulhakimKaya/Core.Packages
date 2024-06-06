@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.extensions.primitives\9.0.0-preview.4.24266.19\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Primitives.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.primitives\9.0.0-preview.4.24266.19\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Primitives.targets')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.abstractions\9.0.0-preview.4.24266.19\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Configuration.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.abstractions\9.0.0-preview.4.24266.19\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Configuration.Abstractions.targets')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.binder\9.0.0-preview.4.24266.19\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.Binder.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.binder\9.0.0-preview.4.24266.19\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.Binder.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.mvc.razor.extensions\2.2.0\build\netstandard2.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.mvc.razor.extensions\2.2.0\build\netstandard2.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.targets')" />
   </ImportGroup>
 </Project>

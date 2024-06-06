@@ -3523,7 +3523,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.AspNetCore.Mvc": "2.2.0",
-          "Microsoft.Extensions.Configuration.Binder": "9.0.0-preview.4.24266.19",
+          "Microsoft.Extensions.Configuration.Binder": "7.0.4",
           "Serilog": "4.0.0",
           "Serilog.Sinks.File": "5.0.1-dev-00972"
         },
@@ -10078,16 +10078,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.Extensions.Configuration.Binder from 9.0.0-preview.4.24266.19 to 7.0.4. Reference the package directly from the project to select a different version. \r\n Core.Application -> Core.CrossCuttingConcerns -> Microsoft.Extensions.Configuration.Binder (>= 9.0.0-preview.4.24266.19) \r\n Core.Application -> Microsoft.Extensions.Configuration.Binder (>= 7.0.4)",
-      "libraryId": "Microsoft.Extensions.Configuration.Binder",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }
