@@ -3,7 +3,7 @@ using Core.CrossCuttingConcerns.SeriLog.Messages;
 using Microsoft.Extensions.Configuration;
 using Serilog;
 
-namespace Core.CrossCuttingConcerns.SeriLog.Logger;
+namespace Core.CrossCuttingConcerns.SeriLog.Loggers;
 
 public class FileLogger:LoggerServiceBase
 {
