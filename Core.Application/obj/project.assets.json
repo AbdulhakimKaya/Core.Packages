@@ -1818,6 +1818,15 @@
           }
         }
       },
+      "Otp.NET/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Otp.NET.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Otp.NET.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -3744,6 +3753,24 @@
         "runtime": {
           "bin/placeholder/Core.Persistence.dll": {}
         }
+      },
+      "Core.Security/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Core.Persistence": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "7.0.4",
+          "Microsoft.IdentityModel.Tokens": "6.35.0",
+          "Otp.NET": "1.4.0",
+          "System.IdentityModel.Tokens.Jwt": "6.35.0"
+        },
+        "compile": {
+          "bin/placeholder/Core.Security.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.Security.dll": {}
+        }
       }
     }
   },
@@ -5650,6 +5677,26 @@
         "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.1.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "Otp.NET/1.4.0": {
+      "sha512": "Fk1NKc0lWmlo6LAFYpFJInRgFKt72knRNEvxndDYoQHFwYOPXav+WEUBvQA0k4lxq5xt0SymrZ+oi0F/G40bPQ==",
+      "type": "package",
+      "path": "otp.net/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "icon.png",
+        "lib/net461/Otp.NET.dll",
+        "lib/net5.0/Otp.NET.dll",
+        "lib/net6.0/Otp.NET.dll",
+        "lib/net7.0/Otp.NET.dll",
+        "lib/net8.0/Otp.NET.dll",
+        "lib/netstandard2.0/Otp.NET.dll",
+        "otp.net.1.4.0.nupkg.sha512",
+        "otp.net.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -10216,12 +10263,18 @@
       "type": "project",
       "path": "../Core.Persistence/Core.Persistence.csproj",
       "msbuildProject": "../Core.Persistence/Core.Persistence.csproj"
+    },
+    "Core.Security/1.0.0": {
+      "type": "project",
+      "path": "../Core.Security/Core.Security.csproj",
+      "msbuildProject": "../Core.Security/Core.Security.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Core.CrossCuttingConcerns >= 1.0.0",
       "Core.Persistence >= 1.0.0",
+      "Core.Security >= 1.0.0",
       "FluentValidation >= 11.9.0",
       "MediatR >= 12.2.0",
       "Microsoft.Extensions.Configuration.Binder >= 7.0.4"
@@ -10259,6 +10312,9 @@
             },
             "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
               "projectPath": "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj"
+            },
+            "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
+              "projectPath": "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Security\\Core.Security.csproj"
             }
           }
         }

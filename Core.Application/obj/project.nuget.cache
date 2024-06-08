@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Y0/LUxsGF7z21cTRumswob9xtGbpIA2qoZe+LMxondMEcw1mTlmfXd5Krib3yicjaMowVlTdWc0Eg2N9tTtYzg==",
+  "dgSpecHash": "zjvM/rYCwEBcSawIP5g/jBOUxiAxdqEj909MZ3n3yDrrIM6LxxNXWqhxp6IYek9ujL8OGd46YJiXOM3VFr0NNw==",
   "success": true,
   "projectFilePath": "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Application\\Core.Application.csproj",
   "expectedPackageFiles": [
@@ -106,6 +106,7 @@
     "C:\\Users\\abdul\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
+    "C:\\Users\\abdul\\.nuget\\packages\\otp.net\\1.4.0\\otp.net.1.4.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

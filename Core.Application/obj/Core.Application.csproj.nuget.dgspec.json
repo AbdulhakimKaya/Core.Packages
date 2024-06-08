@@ -33,6 +33,9 @@
               },
               "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
                 "projectPath": "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj"
+              },
+              "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
+                "projectPath": "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Security\\Core.Security.csproj"
               }
             }
           }
@@ -208,6 +211,87 @@
             "System.Linq.Dynamic.Core": {
               "target": "Package",
               "version": "[1.3.9-preview-02, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Security\\Core.Security.csproj",
+        "projectName": "Core.Security",
+        "projectPath": "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Security\\Core.Security.csproj",
+        "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Security\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
+                "projectPath": "C:\\Users\\abdul\\RiderProjects\\CSharpnArchitectureCourse\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.35.0, )"
+            },
+            "Otp.NET": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.35.0, )"
             }
           },
           "imports": [
