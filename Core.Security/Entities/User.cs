@@ -1,4 +1,5 @@
 using Core.Persistence.Repositories;
+using Core.Security.Enums;
 
 namespace Core.Security.Entities;
 
@@ -9,7 +10,8 @@ public class User : Entity<int>
     public string Email { get; set; }
     public byte[] PasswordSalt { get; set; }
     public byte[] PasswordHash { get; set; }
-    public string Status { get; set; }
+    public bool Status { get; set; }
+    public AuthenticatorType AuthenticatorType { get; set; }
 
     public virtual ICollection<UserOperationClaim> UserOperationClaims { get; set; } = null!;
     public virtual ICollection<RefreshToken> RefreshTokens { get; set; } = null!;
@@ -27,7 +29,7 @@ public class User : Entity<int>
     }
 
     public User(string firstName, string lastName, string email, byte[] passwordSalt, byte[] passwordHash,
-        string status)
+        bool status)
     {
         FirstName = firstName;
         LastName = lastName;
@@ -38,7 +40,7 @@ public class User : Entity<int>
     }
 
     public User(int id, string firstName, string lastName, string email, byte[] passwordSalt, byte[] passwordHash,
-        string status) : base(id)
+        bool status) : base(id)
     {
         FirstName = firstName;
         LastName = lastName;
