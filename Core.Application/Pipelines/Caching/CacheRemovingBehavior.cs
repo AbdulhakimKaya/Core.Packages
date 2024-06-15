@@ -27,17 +27,22 @@ public class CacheRemovingBehavior<TRequest, TResponse> : IPipelineBehavior<TReq
         
         if (request.CacheGroupKey != null)
         {
-            byte[]? cachedGroup = await _cache.GetAsync(request.CacheGroupKey, cancellationToken);
-            if (cachedGroup != null)
-            {
-                HashSet<string> keysInGroup = JsonSerializer.Deserialize<HashSet<string>>(Encoding.Default.GetString(cachedGroup))!;
-                foreach (string key in keysInGroup)
-                {
-                    await _cache.RemoveAsync(key, cancellationToken);
-                }
 
-                await _cache.RemoveAsync(request.CacheGroupKey, cancellationToken);
-                await _cache.RemoveAsync(key: $"{request.CacheGroupKey}SlidingExpiration", cancellationToken);
+            var groups =  request.CacheGroupKey.Split(",");
+            foreach (var group in groups)
+            {
+                byte[]? cachedGroup = await _cache.GetAsync(group, cancellationToken);
+                if (cachedGroup != null)
+                {
+                    HashSet<string> keysInGroup = JsonSerializer.Deserialize<HashSet<string>>(Encoding.Default.GetString(cachedGroup))!;
+                    foreach (string key in keysInGroup)
+                    {
+                        await _cache.RemoveAsync(key, cancellationToken);
+                    }
+
+                    await _cache.RemoveAsync(request.CacheGroupKey, cancellationToken);
+                    await _cache.RemoveAsync(key: $"{request.CacheGroupKey}SlidingExpiration", cancellationToken);
+                }
             }
         }
 
